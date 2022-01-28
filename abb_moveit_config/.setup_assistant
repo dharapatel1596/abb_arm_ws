@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: abb_with_gripper
+    relative_path: urdf/measurement_tool.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/ur5_with_measurement_tool.srdf
+  CONFIG:
+    author_name: dhara
+    author_email: dhara@gmail.com
+    generated_timestamp: 1642528014
